@@ -1,0 +1,119 @@
+*{
+ box-sizing: border-box;
+ padding:0px;
+ margin:0px; 
+ margin:2px;
+}
+body{
+    background: #c2e59c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.textfield{
+    width: 250px;
+    height:25px;
+    font-size:15px;
+    border: radius 2px;
+    border:2px solid black;
+    font-family: monospace;
+}
+
+.submitbutton{
+    height: 30px;
+    width: 40px;
+    font-size:20px;
+    display: inline;
+    background-color: rgba(180, 30, 180, 0.9);
+    color: #fff;
+    border-radius:2px;
+    border:none;
+   
+}
+
+.submitbutton:hover{
+ background-color: rgb(145, 235, 145);
+ 
+}
+li{
+    width: 250px;
+    height: 25px;
+    border:1px solid white;
+    list-style: none;
+    cursor: pointer;
+    margin: 12px;
+    background-color:#F8F8F8;
+    margin-left:-3.399px;
+    border-radius:5px;
+    font-family: monospace;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.container{
+    height:auto;
+    width : auto;
+    border:1px solid black;
+    background-color: white;
+    display: inline-block;
+    overflow: hidden;
+}
+.clearbutton{
+    color:white;
+    padding:5px;
+    text-align: center;
+    background-color:rgba(180, 30, 180, 0.9);
+    font-family: monospace;
+}
+
+p{
+    margin:10px 0px;
+    font-size:12px;
+    font-family: monospace;
+}
+
+.Heading{
+   font-size : 25px;
+    margin:0px 20px;
+    font-family:monospace;
+}
+
+.whole{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.typewriter h3 {
+  font-family: monospace;
+  letter-spacing: .17em;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .17em solid pink;
+  animation: typing 5.5s steps(30, end), blinking-cursor .5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blinking-cursor {
+  from,
+  to {
+    border-color: transparent
+  }
+  50% {
+    border-color: pink;
+  }
+}
+
+h3{
+    font-size:12px;
+    opacity: 0.4;
+}
